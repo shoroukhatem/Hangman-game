@@ -7,9 +7,11 @@ using namespace std;
 
 int main()	
 {	
-    int random,wrong_answers=0,right_answers=0; //random carry a random number to refer to random word //target is for print true or wrong one time.	
+    int random,wrong_answers=0,right_answers=0; //random carry a random number to refer to random word //target is for print true or wrong one time.
+    
     char check_char,playing_again;	
     bool target=false;	
+    
    string s[7]={"cat","park","dog","flower","hello","girl","doll"};	
    while(true){	
     random=rand()%7;	
