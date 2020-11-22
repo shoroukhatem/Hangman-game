@@ -1,12 +1,12 @@
 
-#include <iostream>	
+     #include <iostream>	
     
-#include <cstdlib>	
+     #include <cstdlib>	
     
-using namespace std;	
+    using namespace std;	
 
-int main()	
-{	
+    int main()	
+    {	
 
     int random,wrong_answers=0,right_answers=0; //random carry a random number to refer to random word //target is for print true or wrong one time.
     
@@ -40,7 +40,7 @@ int main()
         else if(right_answers==s[random].size()){cout<<"you won!"<<endl; break;}	
 
 
-   }	
+     }	
 
     cout<<"if you want to play again enter Y if not enter N"<<endl;  /* from here till the end is for allow to the user to play again*/	
      cin>>playing_again;	
@@ -52,9 +52,9 @@ int main()
      if(playing_again=='n'||playing_again=='N'){ break;}	
 
 
-   }	
+    }	
 
 
     return 0;	
-}
+    }
  
